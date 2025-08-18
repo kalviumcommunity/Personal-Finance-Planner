@@ -1,20 +1,18 @@
 # Personal-Finance-Planner
 
-An AI-powered assistant that helps users create personalized savings and investment plans based on their financial goals using LLMs, Function Calling, and RAG (Retrieval-Augmented Generation).
+### An AI-powered assistant that helps users create personalized savings and investment plans based on their financial goals using LLMs, Function Calling, and RAG (Retrieval-Augmented Generation).
 
-Features
-🔍 Accepts user goals (e.g., "Save ₹10 lakhs in 3 years")
+In this Generation when people are confused on how to manage their finances, this bot helps in managing the finances effectively. This provides personalised plan for finance management.
 
-🧠 Uses LLM to understand natural language goals
+## Tech Stack
 
-⚙️ Calls backend functions like getBankInterestRates() and calculateMonthlySavings()
+1. **Backend**: Python (FastAPI / Flask)
 
-📦 Outputs a structured savings plan with monthly breakdown, tips, and investment suggestions
+2. **Frontend** (optional): React
 
-📚 Uses RAG to fetch up-to-date information on:
+3. **LLM**: OpenAI GPT-4 / GPT-3.5 (with Function Calling & RAG)
 
-Inflation
+4. **Database**: Vector DB (Pinecone, FAISS, or Chroma) for RAG documents
 
-FD/Mutual Fund/PPF rates
+5. **Tools**: LangChain (for chaining + RAG), Pandas (calculations)
 
-Budgeting strategies
